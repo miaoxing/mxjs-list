@@ -8,10 +8,5 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.8.6"
-  },
-  "bit": {
-    "env": {},
-    "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "yarn"
   }
 }
