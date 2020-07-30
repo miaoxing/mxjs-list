@@ -5,6 +5,10 @@
   "repository": "git@github.com:miaoxing/list.git",
   "author": "twinh <twinhuang@qq.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.8.6"
