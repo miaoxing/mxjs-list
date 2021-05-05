@@ -1,8 +1,8 @@
-import * as React from "react";
+import * as React from 'react';
 import classNames from 'classnames';
 
 export interface ListProps {
-  as?: any;
+  as?: React.ElementType;
   className?: string;
 
   /**
@@ -21,7 +21,7 @@ export interface ListProps {
   borderless?: boolean;
 }
 
-const List = (props: ListProps) => {
+const List = (props: ListProps): JSX.Element => {
   const {
     as: Component,
     className,

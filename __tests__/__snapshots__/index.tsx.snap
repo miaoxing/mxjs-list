@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`list List 1`] = `
+<div>
+  <ul
+    class="list"
+  />
+</div>
+`;
+
+exports[`list List as Component 1`] = `
+<div>
+  <span
+    class="list"
+  />
+</div>
+`;
+
+exports[`list List as HTML Element 1`] = `
+<div>
+  <div
+    class="list"
+  />
+</div>
+`;

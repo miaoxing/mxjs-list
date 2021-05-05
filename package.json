@@ -9,18 +9,20 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
+  },
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.8.6"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^6.4.0"
-  },
-  "jest": {
-    "preset": "jest-preset-miaoxing"
+    "@miaoxing/dev": "^6.4.0",
+    "@testing-library/react": "^11.2.6"
   },
   "ciDependencies": {
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
     "@miaoxing/dev": "miaoxing/dev"
   }
 }
