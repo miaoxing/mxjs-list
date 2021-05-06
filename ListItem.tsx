@@ -1,11 +1,11 @@
-import * as React from "react";
-import classNames from "classnames";
-import ListTitle from "./ListTitle";
-import ListText from "./ListText";
-import ListDetail from "./ListDetail";
+import * as React from 'react';
+import classNames from 'classnames';
+import ListTitle from './ListTitle';
+import ListText from './ListText';
+import ListDetail from './ListDetail';
 
 export interface ListItemProps {
-  as?: any;
+  as?: React.ElementType;
   className?: string;
   title?: string;
   detail?: string;
@@ -14,10 +14,10 @@ export interface ListItemProps {
    * 是否为描述列表项目
    */
   description?: boolean;
-  children?: any;
+  children?: React.ReactNode;
 }
 
-const ListItem = (props: ListItemProps) => {
+const ListItem = (props: ListItemProps): JSX.Element => {
   const {
     as: Component,
     className,
@@ -54,7 +54,7 @@ const ListItem = (props: ListItemProps) => {
 };
 
 ListItem.defaultProps = {
-  as: 'li'
+  as: 'li',
 };
 
 export default ListItem;

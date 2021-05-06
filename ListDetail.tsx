@@ -1,12 +1,12 @@
-import * as React from "react";
-import classNames from "classnames";
+import * as React from 'react';
+import classNames from 'classnames';
 
 export interface ListDetailProps {
-  as?: any;
+  as?: React.ElementType;
   className?: string;
 }
 
-const ListDetail = (props: ListDetailProps) => {
+const ListDetail = (props: ListDetailProps): JSX.Element => {
   const {
     as: Component,
     className,

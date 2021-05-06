@@ -1,12 +1,12 @@
-import * as React from "react";
-import classNames from "classnames";
+import * as React from 'react';
+import classNames from 'classnames';
 
 export interface ListTextProps {
-  as?: any;
+  as?: React.ElementType;
   className?: string;
 }
 
-const ListText = (props: ListTextProps) => {
+const ListText = (props: ListTextProps): JSX.Element => {
   const {
     as: Component,
     className,
